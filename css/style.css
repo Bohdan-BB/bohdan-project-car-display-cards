@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url(../assets/pattern.png);
+    font-family: "Roboto", sans-serif;
+}
+
+.car{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    max-width: 600px;
+    background-size: 200px;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px black;
+    padding: 20px;
+}
+
+.car-1{
+    background-image: url(../assets/economic-car.png);
+}
+
+.car-2{
+    background-image: url(../assets/luxury-car.png);
+
+}
+
+.car-3{
+    background-image: url(../assets/family-car.png);
+   
+}
+
+h1{
+    padding: 5px;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100px;
+    position: relative;
+    margin: 20px;
+}
+.economy{
+    color: salmon;
+}
+
+.luxury{
+    color:blueviolet;
+}
+
+.family{
+    color:aquamarine;
+}
+
+.economyimg{
+    background-color: red;
+}
+
+.luxuryimg{
+background-color: rgb(0, 255, 76);
+}
+
+.familyimg{
+background-color: bisque;
+}
